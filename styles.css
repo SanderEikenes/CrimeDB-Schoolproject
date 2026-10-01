@@ -1,0 +1,74 @@
+body {
+  background-color: #1b263b;
+  color: #e0e1dd;
+  margin: 48px;
+}
+h1, h2, h3, h4 {
+  font-family: "Science Gothic", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0; 
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+nav {
+ display: flex; 
+ justify-content: space-between;
+ align-items: center;
+}
+
+#navelements {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#profileimage {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+#searchbar {
+  border-radius: 25px;
+  padding: 4px;
+}
+
+.box-container {
+  background-color: #415a77;
+  box-sizing: border-box;
+}
+
+.foreground {
+  background-color: #778da9;
+}
+
+.text-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+#hero {
+  display: flex;
+  gap: 8px;
+}
+
+#hero .div1 {
+  flex: 1;
+}
+
+#hero .div2 {
+  flex: 2;
+}
