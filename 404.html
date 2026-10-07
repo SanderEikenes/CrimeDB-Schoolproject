@@ -1,12 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>page not found</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/404.css" rel="stylesheet" />
+    <script src="scripts/404.js"></script>
   </head>
+
   <body>
-  <h1>404 not found</h1>
+    <div id="container">
+
+      <h1>404 not found</h1>
+      <p><strong>Sorry, but the page you are looking for does not exist...</strong> </p>
+      <p>(Click the image for a surprise)</p>
+      <img
+        id="cooperimage"
+        src="images/noglasses.webp"
+        alt="D. B. Cooper without sunglasses"
+        onclick="swapimage()"
+      />
+
+      <button type="" id="returnhome">
+        <a href="./index.html">Return Home</a>
+      </button>
+
+      <p>More about D. B. Cooper, the plane hijacker that was never found:</p>
+      <button type="" id="readmore">
+        <a href="people/dbcooper.html">Read more<a/>
+      </button>
+
+    </div>
   </body>
 </html>
